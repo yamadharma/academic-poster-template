@@ -1,1 +1,18 @@
-../makefiles/make
+#!/bin/bash
+
+#make FILE=russian $@
+#make FILE=russian_16x9 $@
+#make FILE=russian_16x10 $@
+#make FILE=russian_print $@
+#make FILE=russian_only-notes $@
+#make FILE=russian_with-notes $@
+#make FILE=russian_handout-with-notes $@
+make FILE=russian_poster $@
+
+#make FILE=english $@
+#make FILE=english_16x9 $@
+#make FILE=english_16x10 $@
+#make FILE=english_print $@
+#make FILE=english_only-notes $@
+#make FILE=english_with-notes $@
+make FILE=english_poster $@
