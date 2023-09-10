@@ -3,21 +3,32 @@
 
 \begin{frame}[fragile]
 
-% Align on top
-\begin{columns}[t]  
+  \vspace*{-3\baselineskip}
+  
+  %% Align on top
+  %% Выравнивание колонок постера по верху
+  \begin{columns}[t]  
 
-\begin{column}{.48\linewidth}
+    %% Первая колонка
+    %% Задаём ширину первой колонки
+    %% Для 3-х колонок: \begin{column}{.32\linewidth}
+    \begin{column}{.48\linewidth}
 
-\input{text/05intro}
+      \input{text/05intro}
+      \input{text/placeholder}
 
-\end{column}
-\begin{column}{.48\linewidth}
+    \end{column}
 
-\input{text/85ack}
+    % Вторая колонка
+    \begin{column}{.48\linewidth}
+      
+      \input{text/placeholder}
+      
+      \input{text/85ack}
 
-\end{column}
-
-\end{columns} 
+    \end{column}
+    
+  \end{columns} % Конец разбиения на колонки
 
 \end{frame}
 
